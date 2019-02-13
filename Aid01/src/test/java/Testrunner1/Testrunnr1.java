@@ -11,6 +11,6 @@ import cucumber.api.junit.Cucumber;
 
 
 
-public class Testrunnr1 {
+public class Testrunner1 {
 
 }
