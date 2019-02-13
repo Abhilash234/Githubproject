@@ -1,0 +1,58 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Demo tours login with valid credentials",
+        "description": "",
+        "id": "demo-tour-login-functionality-checking;demo-tours-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10042096861,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open the browser and pass the applicatiuon url",
+            "match": {
+              "location": "DemoLoginObject.open_the_browser_and_pass_the_applicatiuon_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 90717480989,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter the valid user id and password",
+            "match": {
+              "location": "DemoLoginObject.enter_the_valid_user_id_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 146189904,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "signout should be visible in the next page",
+            "match": {
+              "location": "DemoLoginObject.signout_should_be_visible_in_the_next_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Demo tour login functionality checking",
+    "description": "",
+    "id": "demo-tour-login-functionality-checking",
+    "keyword": "Feature",
+    "uri": "Feautre1/Demotours.feature"
+  }
+]
